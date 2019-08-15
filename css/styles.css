@@ -1,0 +1,118 @@
+body {
+    background-color: black;
+    color: ghostwhite;
+    font-family: 'garamond', 'calibri', sans-serif;
+}
+h1{
+text-align: center;
+}
+
+#nav {
+    list-style-type: none;
+    height: 75px;
+    /* center element longhand*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* #nav>li {  used class instead*/
+.navLinkListItem{
+    display: inline;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.navLinkText{
+    line-height:75px;
+}
+
+#nav>li>a {
+    color: antiquewhite;
+    text-decoration: none;
+    line-height: 75px; 
+}
+
+.navDivLink{
+    height:75px;
+    display: inline-block;
+    background-color: firebrick;
+    padding:0 5px;
+    width: 150px;
+    border-radius:25px 0 25px 0;
+}
+    .navDivLink:hover{
+        background-color:rgba(33,33,33,0.7);
+    }
+
+#pics>tbody>tr>td>img {
+    width: 350px;
+}
+#pics>tfoot>tr>td{
+    font-style: italic;
+    font-weight: bold;
+}
+
+table {
+    /* center element shorthand*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin:auto,0;*/
+    width: 1070px;
+}
+footer,address{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    margin: 0;
+    padding: 25px;
+    background-color: firebrick;
+    border-top: 8px rgb(12, 12, 12) double;
+
+}
+p{
+    padding: 0 20px 0 20px;
+}
+/*#wash, #poe, #will*/
+.authorImage{
+   /* float: left; worked better leaving this element out with the div*/
+    margin: 0 20px 20px 0;
+    width: 350px
+
+}
+.brownPaper{
+    display: block;
+    margin: auto;
+    width: 1000px;
+}
+.heading{
+    text-align: center;
+}
+.greenPaper{
+    display: block;
+    width: 980px;
+  /*  height:100px; was best leaving this one out*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.photoDiv{
+    display: inline-block;
+    width:350px;
+    height: 800px;
+}
+.textContent{
+   /* display: inline-block; didn't work with this one I had to float it*/
+    width: 625px;
+    height:800px;
+    float: right;
+   
+}
+.footerDiv{
+    display: block;
+}
