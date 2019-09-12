@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Authors</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php includes_once("includes/css.php");?>
+    <?php include_once("includes/css.php");?>
 </head>
 
 <body>
