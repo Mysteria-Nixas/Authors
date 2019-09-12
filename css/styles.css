@@ -3,52 +3,21 @@ body {
     color: ghostwhite;
     font-family: 'garamond', 'calibri', sans-serif;
 }
-.authorContent{
-    margin-bottom: 200px;
-    margin-top:50px;
-}
 h1{
 text-align: center;
 }
 
-.navbar{
-    display: block;
-    width: 100%;
-    margin-left:20%;
-}
-.btn{
-    display: inline-block;
-    width: 161px;
-    height:40px;
-    border-radius:25px 0 25px 0;
-    background-color:#b22222;
-    color:#f5f5f5;
-    margin-right:11px;
-    margin-left:11px;
-    border:solid#a2713ea3;
-}
-    .btn:hover{
-         background-color:#302f2f;
-        color:#d0d4bd;
-}
-    .btn:active{
-        background-color:#d0d4bd;
-        color:#000000
-    }
-    .pageContent{
-        margin-top:50px;
-    }
-/*
- #nav {
+#nav {
     list-style-type: none;
     height: 75px;
- center element longhand
-   display: block;
+    /* center element longhand*/
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
- #nav>li {  used class instead
+
+/* #nav>li {  used class instead*/
 .navLinkListItem{
     display: inline;
     margin-right: 10px;
@@ -78,18 +47,15 @@ text-align: center;
     .navDivLink:hover{
         background-color:rgba(33,33,33,0.7);
     }
-        .navDivLink :active{
-            background-color:#ad7637;
-        }*/
 
 #pics>tbody>tr>td>img {
     width: 350px;
-    height:350px;
 }
 #pics>tfoot>tr>td{
     font-style: italic;
     font-weight: bold;
 }
+
 table {
     /* center element shorthand*/
     display: block;
@@ -113,14 +79,40 @@ p{
     padding: 0 20px 0 20px;
 }
 /*#wash, #poe, #will*/
- /*.authorImage{
-   float: left; worked better leaving this element out with the div
+.authorImage{
+   /* float: left; worked better leaving this element out with the div*/
     margin: 0 20px 20px 0;
-    width: 350px*/
+    width: 350px
+
+}
+.brownPaper{
+    display: block;
+    margin: auto;
+    width: 1000px;
+}
 .heading{
     text-align: center;
 }
-.authorImage{
-    height:450px;
-    width:450px;
+.greenPaper{
+    display: block;
+    width: 980px;
+  /*  height:100px; was best leaving this one out*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.photoDiv{
+    display: inline-block;
+    width:350px;
+    height: 800px;
+}
+.textContent{
+   /* display: inline-block; didn't work with this one I had to float it*/
+    width: 625px;
+    height:800px;
+    float: right;
+   
+}
+.footerDiv{
+    display: block;
 }
