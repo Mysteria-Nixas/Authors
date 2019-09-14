@@ -21,7 +21,7 @@
                 <div class="col-lg-4">
                     <div class="card mb-3">
                         <img src="https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth-oai:mc87r128v/datastreams/thumbnail300/content"
-                            class="card-img-top" alt="...">
+                            class="card-img-top authorImg" alt="...">
                         <div class="card-body">
                             <h6 class="card-title">Washington Irving</h6>
                         </div>
@@ -29,7 +29,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card mb-3">
-                        <img src="https://mediadc.brightspotcdn.com/dims4/default/a4ff469/2147483647/strip/true/crop/939x939+0+0/resize/939x939!/quality/90/?url=https%3A%2F%2Fmediadc.brightspotcdn.com%2Fad%2F80%2F60108b377c6023f12f30c5733174%2F274d827b45bbe36cf5e3ad654889a512.jpg" class="card-img-top" alt="...">
+                        <img src="https://mediadc.brightspotcdn.com/dims4/default/a4ff469/2147483647/strip/true/crop/939x939+0+0/resize/939x939!/quality/90/?url=https%3A%2F%2Fmediadc.brightspotcdn.com%2Fad%2F80%2F60108b377c6023f12f30c5733174%2F274d827b45bbe36cf5e3ad654889a512.jpg" class="card-img-top authorImg" alt="...">
                         <div class="card-body">
                             <h6 class="card-title">Edgar Allan poe</h6>
                         </div>
@@ -37,7 +37,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card mb-3">
-                        <img src="https://www.williamshakespeare.net/images/shakespeare.jpg" class="authorImage" class="card-img-top" alt="...">
+                        <img src="https://www.williamshakespeare.net/images/shakespeare.jpg" class="card-img-top authorImg" alt="...">
                         <div class="card-body">
                             <h6 class="card-title">William Shakespeare</h6>
                         </div>

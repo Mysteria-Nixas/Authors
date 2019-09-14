@@ -10,11 +10,10 @@ body {
 h1{
 text-align: center;
 }
-
 .navbar{
     display: block;
-    width: 100%;
-    margin-left:20%;
+    margin-right:15%;
+    margin-left:15%;
 }
 .btn{
     display: inline-block;
@@ -82,7 +81,14 @@ text-align: center;
             background-color:#ad7637;
         }*/
 
-#pics>tbody>tr>td>img {
+.card{
+    background-color:#000000;
+    color:#ffff;
+}
+.card-body{
+    padding:0;
+}
+.authorImg{
     width: 350px;
     height:350px;
 }
@@ -119,8 +125,4 @@ p{
     width: 350px*/
 .heading{
     text-align: center;
-}
-.authorImage{
-    height:450px;
-    width:450px;
 }

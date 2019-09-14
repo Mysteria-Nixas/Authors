@@ -4,11 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Washington Irving</title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/styles.css">
+    <?php include_once("../includes/css.php");?>
 </head>
 
 <body>
@@ -17,7 +14,9 @@
             <span class="heading">
                 <h1>Washington Irving</h1>
             </span>
-            <?php include_once("includes/navBar>.php");?></div>
+            <div>
+            <?php include_once("../includes/navBar.php");?>
+            </div>
             <div class="row pageContent">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <img src="https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth-oai:mc87r128v/datastreams/thumbnail300/content"
