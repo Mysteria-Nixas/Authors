@@ -1,3 +1,3 @@
 <?php
-$cssPath = $_SERVER['DOCUMENT_ROOT'] . '/www/authors/css/styles.css';
+$cssPath = 'http://localhost/authors/css/styles.css';
 ?>

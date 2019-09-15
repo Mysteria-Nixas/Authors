@@ -37,7 +37,65 @@ text-align: center;
     .pageContent{
         margin-top:50px;
     }
-/*
+
+.card{
+    background-color:#000000;
+    color:#ffff;
+}
+.card-body{
+    padding:0;
+}
+.authorImg{
+    width: 350px;
+    height:350px;
+}
+#pics>tfoot>tr>td{
+    font-style: italic;
+    font-weight: bold;
+}
+table {
+    /* center element shorthand*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin:auto,0;*/
+    width: 1070px;
+}
+footer,address{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    margin: 0;
+    padding: 25px;
+    background-color: firebrick;
+    border-top: 8px rgb(12, 12, 12) double;
+
+}
+p{
+    padding: 0 20px 0 20px;
+}
+.heading{
+    text-align: center;
+}
+
+.currentPage{
+    background-color:#302f2f !important;
+    color:antiquewhite;
+    font-style:italic;
+}
+
+.authorProfileImage{
+    width: 500px;
+    height:500px;
+}
+/*#wash, #poe, #will*/
+ /*.authorImage{
+   float: left; worked better leaving this element out with the div
+    margin: 0 20px 20px 0;
+    width: 350px*/
+
+    /*
  #nav {
     list-style-type: none;
     height: 75px;
@@ -81,48 +139,3 @@ text-align: center;
             background-color:#ad7637;
         }*/
 
-.card{
-    background-color:#000000;
-    color:#ffff;
-}
-.card-body{
-    padding:0;
-}
-.authorImg{
-    width: 350px;
-    height:350px;
-}
-#pics>tfoot>tr>td{
-    font-style: italic;
-    font-weight: bold;
-}
-table {
-    /* center element shorthand*/
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /*margin:auto,0;*/
-    width: 1070px;
-}
-footer,address{
-    text-align: center;
-}
-footer{
-    width: 100%;
-    margin: 0;
-    padding: 25px;
-    background-color: firebrick;
-    border-top: 8px rgb(12, 12, 12) double;
-
-}
-p{
-    padding: 0 20px 0 20px;
-}
-/*#wash, #poe, #will*/
- /*.authorImage{
-   float: left; worked better leaving this element out with the div
-    margin: 0 20px 20px 0;
-    width: 350px*/
-.heading{
-    text-align: center;
-}

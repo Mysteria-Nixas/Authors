@@ -13,6 +13,23 @@
         <div class=container>
             <span class="heading">
                 <h1>Washington Irving</h1>
+                <?php
+                    // $profileIsIrving = false;
+                    // // $host = $_SERVER['HTTP_HOST'];
+                    // // echo $host;
+                    // // echo "<br>";
+                    // $currentUrl = $_SERVER['REQUEST_URI'];
+                    // echo $currentUrl;
+                    // echo "<br>";
+
+                    // //echo $host . $currentUrl;
+                    // if(strpos($currentUrl, 'poe')){
+                    //     //set a variable stating we are on Irvings profile
+                    //     //echo 'URI contains the word Irving';
+                    //     $profileIsIrving = true;
+                    //     //echo $profileIsIrving;
+                    // }
+                ?>
             </span>
             <div>
             <?php include_once("../includes/navBar.php");?>
@@ -20,7 +37,7 @@
             <div class="row pageContent">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <img src="https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth-oai:mc87r128v/datastreams/thumbnail300/content"
-                        class="authorImage" />
+                        class="authorProfileImage" />
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <h3>Early Life</h3>
